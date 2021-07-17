@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="formstyles.css">
+</head>
+<body>
+    <div id="error"></div>
+
+    <form action='https://formsubmit.co/richtaters@gmail.com' method="POST">
+
+            <div>
+
+                <h1>Hit Me Up</h1>
+                <div>
+                    <label for='name'>Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required>
+                </div>
+                <div>
+                    <label for='email'>Email</label>
+                        <input type="text" id="email" name="email" placeholder="john@cmail.com" required>
+                </div>
+                <div class="messages">
+                    <label class="msg" for='msg'>Your Message</label>
+                        <textarea cols='50' rows='10' type="text" id="msg" name="msg" placeholder="I'd like some work done..." required></textarea>
+                </div>          
+                <div>
+                    <!-- <input type='hidden' name='_thanks' value='https://legacyelite.com'> -->
+                </div>     
+                
+                <!-- <button type='submit'>Send</button> -->
+            </div>
+
+        <!-- <button type='submit'>Send</button> -->
+    </form>
+    <button type='submit'>Send</button>
+</body>
+
+<script src="app.js"></script>
+</html>
